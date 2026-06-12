@@ -259,14 +259,14 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    height: HERO_HEIGHT * 0.65,
+    height: HERO_HEIGHT * 0.18,
     // Simulate a gradient using layered views is limited in RN without libraries;
     // we use a semi-opaque dark overlay for effect
     backgroundColor: COLORS.overlayShadow,
   },
   backButton: {
     position: 'absolute',
-    top: 52,
+    top: 15,
     left: 16,
     backgroundColor: '#0D1B2ACC',
     paddingHorizontal: 14,

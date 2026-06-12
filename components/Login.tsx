@@ -86,7 +86,7 @@ export default function Login({ navigation }: Props): React.JSX.Element {
             <View style={styles.logoIconWrapper}>
               <Text style={styles.logoIcon}>🎬</Text>
             </View>
-            <Text style={styles.appName}>Movie Explorer</Text>
+            <Text style={styles.appName}>CineFlix</Text>
             <Text style={styles.tagline}>Discover your next favourite film</Text>
           </View>
 
@@ -168,7 +168,7 @@ export default function Login({ navigation }: Props): React.JSX.Element {
               {loading ? (
                 <ActivityIndicator color={COLORS.background} size="small" />
               ) : (
-                <Text style={styles.loginButtonText}>Sign In</Text>
+                <Text style={styles.loginButtonText}>login</Text>
               )}
             </TouchableOpacity>
 

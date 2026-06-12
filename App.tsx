@@ -69,7 +69,7 @@ export default function App(): React.JSX.Element {
           name="Home"
           component={Home}
           options={{
-            title: '🎬  Movie Explorer',
+            title: '🎬  CineFlix',
             headerLeft: () => null,
             gestureEnabled: false,
           }}
